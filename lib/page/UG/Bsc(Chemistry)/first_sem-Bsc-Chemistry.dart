@@ -4,14 +4,14 @@ import 'package:pup_prep/main.dart';
 import 'package:pup_prep/widgets/subject_tile.dart';
 import 'package:pup_prep/widgets/up_banner.dart';
 
-class First_Sem_BSC_BIOTECH extends StatefulWidget {
-  const First_Sem_BSC_BIOTECH({super.key});
+class First_Sem_BSC_CHEMISTRY extends StatefulWidget {
+  const First_Sem_BSC_CHEMISTRY({super.key});
 
   @override
-  State<First_Sem_BSC_BIOTECH> createState() => _First_Sem_BSC_BIOTECHState();
+  State<First_Sem_BSC_CHEMISTRY> createState() => _First_Sem_BSC_CHEMISTRYState();
 }
 
-class _First_Sem_BSC_BIOTECHState extends State<First_Sem_BSC_BIOTECH> {
+class _First_Sem_BSC_CHEMISTRYState extends State<First_Sem_BSC_CHEMISTRY> {
   @override
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;

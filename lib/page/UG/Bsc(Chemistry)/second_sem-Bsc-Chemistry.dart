@@ -6,14 +6,14 @@ import '../../../main.dart';
 import '../../../widgets/subject_tile.dart';
 import '../../../widgets/up_banner.dart';
 
-class Second_Sem extends StatefulWidget {
-  const Second_Sem({super.key});
+class Second_Sem_BSC_CHEMISTRY extends StatefulWidget {
+  const Second_Sem_BSC_CHEMISTRY({super.key});
 
   @override
-  State<Second_Sem> createState() => _Second_SemState();
+  State<Second_Sem_BSC_CHEMISTRY> createState() => _Second_Sem_BSC_CHEMISTRYState();
 }
 
-class _Second_SemState extends State<Second_Sem> {
+class _Second_Sem_BSC_CHEMISTRYState extends State<Second_Sem_BSC_CHEMISTRY> {
   @override
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;
@@ -21,7 +21,7 @@ class _Second_SemState extends State<Second_Sem> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 2nd SEMESTER",
+          "BSC(Chemistry) - 2nd SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(
@@ -42,59 +42,46 @@ class _Second_SemState extends State<Second_Sem> {
                   width: mq.width * 0.7,
                   height: mq.height * 0.06,
                 ),
+                
                 Subject_tile(
-                  title: 'General English-2',
+                  title: 'Physics',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Feng.png?alt=media&token=b0250b58-2733-4645-b155-c9a076c64caeg',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fatom.png?alt=media&token=7524e03a-e5e7-4440-8720-92b2d8d3ac9f',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                filename: "General English-2",
-                                course: "BCA",
-                                sem: "Sem2")));
+                                filename: "physics",
+                                course: 'Bcs(Chemistry)',
+                                sem: 'Sem2',)));
                   },
                 ),
                 Subject_tile(
-                  title: 'Basic Maths',
+                  title: 'Physical Chemistry-II',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fmath1.png?alt=media&token=e7790ada-72ff-4f4b-ba89-cac49ea43519g',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fmolecule.png?alt=media&token=eb6c4922-6024-4090-a568-17f177117ff4',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                filename: "Basic_Maths",
-                                course: "BCA",
-                                sem: "Sem2")));
+                                filename: "physical chemistry II",
+                                course: 'Bcs(Chemistry)',
+                                sem: 'Sem2',)));
                   },
                 ),
                 Subject_tile(
-                  title: 'Data Structures',
+                  title: 'Organic Chemistry-I',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fdsa.png?alt=media&token=ca1e3a1e-b9de-44de-9b49-5b4963d15afd',
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                filename: "Data_Structures",
-                                course: "BCA",
-                                sem: "Sem2")));
-                  },
-                ),
-                Subject_tile(
-                  title: 'Digital Electronics',
-                  image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fde.png?alt=media&token=6d31d2bd-16d0-479d-9dea-b3903ae896a0',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fscience.png?alt=media&token=96832e20-d833-4cf3-9da2-4be69197802e',
                   onTap: () { Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                filename: "Digital_Electronics",
-                                course: "BCA",
-                                sem: "Sem2")));},
+                                filename: "organic chemistry I",
+                                course: 'Bcs(Chemistry)',
+                                sem: 'Sem2',)));},
                 ),
                 Subject_tile(
                   title: 'Drug Abuse',
@@ -102,35 +89,11 @@ class _Second_SemState extends State<Second_Sem> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                filename: "Drug_Abuse",
-                                course: "BCA",
-                                sem: "Sem2")));},
+                                filename: "drug abuse",
+                                course: 'Bcs(Chemistry)',
+                                sem: 'Sem2',)));},
                   image_name:
                       'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fdrug.png?alt=media&token=01c7b83e-696f-448e-97ff-0cb0dceef260',
-                ),
-                Subject_tile(
-                  title: 'Punjabi',
-                  image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fpub.png?alt=media&token=40f1e69d-cb9c-4f10-8db4-b6e2bbacc454',
-                  onTap: () { Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                filename: "Punjabi",
-                                course: "BCA",
-                                sem: "Sem2")));},
-                ),
-                Subject_tile(
-                  title: 'Punjabi Mudla Gyan',
-                  image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fpbi.png?alt=media&token=c0cad45e-ae09-4ee0-952d-073a3dba57cb',
-                  onTap: () { Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                filename: "Punjabi Mudla Gyan",
-                                course: "BCA",
-                                sem: "Sem2")));},
                 ),
               ],
             ),

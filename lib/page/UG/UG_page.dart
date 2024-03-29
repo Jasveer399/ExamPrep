@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pup_prep/main.dart';
 import 'package:pup_prep/page/UG/BA/ba_course.dart';
 import 'package:pup_prep/page/UG/Bsc(Biotech)/Bsc-Biotech_course.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/Bsc_Chemistry.dart';
 import 'package:pup_prep/widgets/program_tile.dart';
 import 'package:pup_prep/widgets/up_banner.dart';
 import 'package:pup_prep/widgets/wotking.dart';
@@ -60,10 +61,28 @@ class _UnderGradState extends State<UnderGrad> {
                               'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fba.png?alt=media&token=703f919b-adca-430f-b584-7aaff162bb07',
                           program_name: 'BA (General)',
                           onTap: () {
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (context) => BA()));
+                          }),
+                      Program_Tile(
+                          imageName:
+                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fnon_med.png?alt=media&token=e0cd21ab-0aea-4783-a3d7-fe1702d66a6b',
+                          program_name: 'BSc (Chemistry)',
+                          onTap: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => BA()));
+                                    builder: (context) => BSC_CHEMISTRY()));
+                          }),
+                           Program_Tile(
+                          imageName:
+                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbiotech.png?alt=media&token=0788b5ce-f59f-4716-a1c5-b1786a3b9c23',
+                          program_name: 'BSc (Biotech.)',
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => BSC_BIOTECH()));
                           }),
                       Program_Tile(
                           imageName:
@@ -75,16 +94,7 @@ class _UnderGradState extends State<UnderGrad> {
                                 MaterialPageRoute(
                                     builder: (context) => working()));
                           }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbiotech.png?alt=media&token=0788b5ce-f59f-4716-a1c5-b1786a3b9c23',
-                          program_name: 'BSc (Biotech.)',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => BSC_BIOTECH()));
-                          }),
+                     
                       Program_Tile(
                           imageName:
                               'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbcom.png?alt=media&token=fb460dec-0777-431b-b1ea-d5ac98f767a7',
@@ -99,16 +109,6 @@ class _UnderGradState extends State<UnderGrad> {
                           imageName:
                               'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fmedical.png?alt=media&token=cbde5b31-50a8-4d96-907c-23cf451e4857',
                           program_name: 'BSc (Medical)',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => working()));
-                          }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fnon_med.png?alt=media&token=e0cd21ab-0aea-4783-a3d7-fe1702d66a6b',
-                          program_name: 'BSc (Non-Medical)',
                           onTap: () {
                             Navigator.push(
                                 context,

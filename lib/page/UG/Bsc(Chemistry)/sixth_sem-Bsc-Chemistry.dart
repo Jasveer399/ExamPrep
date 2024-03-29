@@ -6,14 +6,15 @@ import '../../../main.dart';
 import '../../../widgets/subject_tile.dart';
 import '../../../widgets/up_banner.dart';
 
-class Sixth_Sem_BSC_BIOTECH extends StatefulWidget {
-  const Sixth_Sem_BSC_BIOTECH({super.key});
+class Sixth_Sem_BSC_CHEMISTRY extends StatefulWidget {
+  const Sixth_Sem_BSC_CHEMISTRY({super.key});
 
   @override
-  State<Sixth_Sem_BSC_BIOTECH> createState() => _Sixth_Sem_BSC_BIOTECHState();
+  State<Sixth_Sem_BSC_CHEMISTRY> createState() =>
+      _Sixth_Sem_BSC_CHEMISTRYState();
 }
 
-class _Sixth_Sem_BSC_BIOTECHState extends State<Sixth_Sem_BSC_BIOTECH> {
+class _Sixth_Sem_BSC_CHEMISTRYState extends State<Sixth_Sem_BSC_CHEMISTRY> {
   @override
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;
@@ -21,11 +22,11 @@ class _Sixth_Sem_BSC_BIOTECHState extends State<Sixth_Sem_BSC_BIOTECH> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 6TH SEMESTER",
+          "BSC(Chemistry) - 6TH SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(
-         color: Color(0xFF6A8C95),
+          color: Color(0xFF6A8C95),
         ),
       ),
       body: SafeArea(
@@ -43,35 +44,35 @@ class _Sixth_Sem_BSC_BIOTECHState extends State<Sixth_Sem_BSC_BIOTECH> {
                   height: mq.height * 0.06,
                 ),
                 Subject_tile(
-                  title: 'Bioprocess Technology',
+                  title: 'Organic Chemistry-V',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fbiochemistry.png?alt=media&token=b4ddd432-a98b-4376-8aee-53ad22210345',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Forganic-food.png?alt=media&token=e93f9c7c-76aa-4c2f-a0c8-a1b2dc95a67d',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'Bcs(Biotech)',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem6',
-                                filename: 'Bioprocess Technology')));
+                                filename: 'organical chemistry V')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Reombinant DNA\nTechnology',
+                  title: 'Inorganic Chemistry-IV',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fdna.png?alt=media&token=ddc8a4e1-f5ce-4d2e-8b1d-fa9f624b4d72',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fscience.png?alt=media&token=96832e20-d833-4cf3-9da2-4be69197802e',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'Bcs(Biotech)',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem6',
-                                filename: 'Reombinant DNA Technology')));
+                                filename: 'inorganical chemistry IV')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Chemistry-VI',
+                  title: 'Instrumental Methods of\nChemical of Analysis',
                   image_name:
                       'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Flaboratory.png?alt=media&token=24841fd9-c0cb-41b0-bc62-469902272727',
                   onTap: () {
@@ -79,40 +80,41 @@ class _Sixth_Sem_BSC_BIOTECHState extends State<Sixth_Sem_BSC_BIOTECH> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'Bcs(Biotech)',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem6',
-                                filename: 'Chemistry-VI')));
+                                filename:
+                                    'industrial methods of chemical of analysis')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Palnt Biotechnology',
+                  title: 'Industial Chemical\n& Inorganic',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fvaccine.png?alt=media&token=4c114e52-05f0-4ef7-aa13-3a1cd1830c65',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fbiochemistry.png?alt=media&token=b4ddd432-a98b-4376-8aee-53ad22210345',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'Bcs(Biotech)',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem6',
-                                filename: 'Palnt Biotechnology')));
+                                filename: 'industial chemical and inorganic')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Animal Biotechnology',
+                  title: 'Punjabi',
                   image_name:
-                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Ftransgenic.png?alt=media&token=d486688e-d57c-4428-860f-df35a3aaf304',
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fpub.png?alt=media&token=40f1e69d-cb9c-4f10-8db4-b6e2bbacc454',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'Bcs(Biotech)',
-                                sem: 'Sem6',
-                                filename: 'Animal Biotechnology')));
+                                  course: 'Bcs(Chemistry)',
+                                  sem: 'Sem6',
+                                  filename: "punjabi coumpulsary",
+                                )));
                   },
-                )
-                
+                ),
               ],
             ),
           ),

@@ -4,14 +4,15 @@ import '../../../main.dart';
 import '../../../widgets/subject_tile.dart';
 import '../../../widgets/up_banner.dart';
 
-class Fifth_Sem extends StatefulWidget {
-  const Fifth_Sem({super.key});
+class Fifth_Sem_BSC_CHEMISTRY extends StatefulWidget {
+  const Fifth_Sem_BSC_CHEMISTRY({super.key});
 
   @override
-  State<Fifth_Sem> createState() => _Fifth_SemState();
+  State<Fifth_Sem_BSC_CHEMISTRY> createState() =>
+      _Fifth_Sem_BSC_CHEMISTRYState();
 }
 
-class _Fifth_SemState extends State<Fifth_Sem> {
+class _Fifth_Sem_BSC_CHEMISTRYState extends State<Fifth_Sem_BSC_CHEMISTRY> {
   @override
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;
@@ -19,7 +20,7 @@ class _Fifth_SemState extends State<Fifth_Sem> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 5TH SEMESTER",
+          "BSC(Chemistry) - 5TH SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(
@@ -30,9 +31,7 @@ class _Fifth_SemState extends State<Fifth_Sem> {
         child: Container(
           height: mq.height,
           width: mq.width,
-          decoration: BoxDecoration(
-            color: Color(0xFF6A8C95)
-          ),
+          decoration: BoxDecoration(color: Color(0xFF6A8C95)),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -43,62 +42,90 @@ class _Fifth_SemState extends State<Fifth_Sem> {
                   height: mq.height * 0.06,
                 ),
                 Subject_tile(
-                  title: 'English Litrary \nSkills-1',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Feng.png?alt=media&token=b0250b58-2733-4645-b155-c9a076c64caeg',
+                  title: 'Physical Chemistry',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fmolecule.png?alt=media&token=eb6c4922-6024-4090-a568-17f177117ff4',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'ELS')));
-                  },
-                ),
-                Subject_tile(
-                  title: 'System Analysis & \nDesign',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fsad.png?alt=media&token=c0040938-f8aa-4973-908b-83a3ae94964a',
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'SAD')));
-                  },
-                ),
-                Subject_tile(
-                  title: 'System Software',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fss.png?alt=media&token=1a8741ac-5d8f-4ba3-876d-152fda7ae5d2',
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'SYS')));
-                  },
-                ),
-                Subject_tile(
-                  title: 'Java Programming',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fjava.png?alt=media&token=6f16d935-7593-4fbb-8d57-4cfcfc694d59',
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => PDFScreen(
-                                course: 'BCA',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem5',
-                                filename: 'Java')));
+                                filename: 'physical chemistry')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Web Designing Using \nHTML & DHTML',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fhtml.png?alt=media&token=2c291e2b-eabc-4d7e-b750-edf851d555a2',
+                  title: 'Organic Chemistry',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Forganic-food.png?alt=media&token=e93f9c7c-76aa-4c2f-a0c8-a1b2dc95a67d',
                   onTap: () {
-                                        Navigator.push(
+                    Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA',
+                                course: 'Bcs(Chemistry)',
                                 sem: 'Sem5',
-                                filename: 'HTML')));
+                                filename: 'organic chemistry')));
+                  },
+                ),
+                Subject_tile(
+                  title: 'Inorganic Chemistry\nOf Industrial',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fscience.png?alt=media&token=96832e20-d833-4cf3-9da2-4be69197802e',
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PDFScreen(
+                                course: 'Bcs(Chemistry)',
+                                sem: 'Sem5',
+                                filename:
+                                    'inorganic chemistry of industrial')));
+                  },
+                ),
+                Subject_tile(
+                  title: 'Punjabi',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fpub.png?alt=media&token=40f1e69d-cb9c-4f10-8db4-b6e2bbacc454',
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PDFScreen(
+                                  course: 'Bcs(Chemistry)',
+                                  sem: 'Sem5',
+                                  filename: "punjabi coumpulsary",
+                                )));
+                  },
+                ),
+                Subject_tile(
+                  title: 'Punjabi Mudla Gyan',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fpbi.png?alt=media&token=c0cad45e-ae09-4ee0-952d-073a3dba57cb',
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PDFScreen(
+                                  course: 'Bcs(Chemistry)',
+                                  sem: 'Sem5',
+                                  filename: "punjabi mudla gyaan",
+                                )));
+                  },
+                ),
+                Subject_tile(
+                  title: 'Research Methodlogy\nchemistry',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc(Chemistry)%2Fchemistry.png?alt=media&token=b848a707-ed9a-481a-841c-31b5a741ec78',
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PDFScreen(
+                                course: 'Bcs(Chemistry)',
+                                  sem: 'Sem5',
+                                filename: 'research methodlogy chemistry')));
                   },
                 ),
               ],

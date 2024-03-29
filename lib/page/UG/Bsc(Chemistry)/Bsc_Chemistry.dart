@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pup_prep/main.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/fifth_sem-Bsc-Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/first_sem-Bsc-Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/fourth_sem-Bsc-Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/second_sem-Bsc-Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/sixth_sem-Bsc-Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Chemistry)/third_sem-Bsc-Chemistry.dart';
 import 'package:pup_prep/widgets/sem_tile.dart';
 import 'package:pup_prep/widgets/up_banner.dart';
 import 'package:pup_prep/widgets/wotking.dart';
@@ -41,8 +47,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => First_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '1st Semester',
                   image_name: 'assets/images/sem/1no.png',
@@ -52,8 +60,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Second_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '2nd Semester',
                   image_name: 'assets/images/sem/2no.png',
@@ -63,8 +73,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Third_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '3rd Semester',
                   image_name: 'assets/images/sem/3no.png',
@@ -74,8 +86,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Fourth_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '4th Semester',
                   image_name: 'assets/images/sem/4no.png',
@@ -85,8 +99,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Fifth_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '5th Semester',
                   image_name: 'assets/images/sem/5no.png',
@@ -96,8 +112,10 @@ class _BSC_CHEMISTRYState extends State<BSC_CHEMISTRY> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Sixth_Sem_BSC_CHEMISTRY()));
                   },
                   sem_name: '6th Semester',
                   image_name: 'assets/images/sem/6no.png',
