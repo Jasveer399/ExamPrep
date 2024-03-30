@@ -3,6 +3,7 @@ import 'package:pup_prep/main.dart';
 import 'package:pup_prep/page/UG/BA/ba_course.dart';
 import 'package:pup_prep/page/UG/Bsc(Biotech)/Bsc-Biotech_course.dart';
 import 'package:pup_prep/page/UG/Bsc(Chemistry)/Bsc_Chemistry.dart';
+import 'package:pup_prep/page/UG/Bsc(Cs)/bsc-CS_course.dart';
 import 'package:pup_prep/widgets/program_tile.dart';
 import 'package:pup_prep/widgets/up_banner.dart';
 import 'package:pup_prep/widgets/wotking.dart';
@@ -86,13 +87,13 @@ class _UnderGradState extends State<UnderGrad> {
                           }),
                       Program_Tile(
                           imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbba.png?alt=media&token=18199037-e78c-451a-a278-1b6157f63f68',
-                          program_name: 'BBA',
+                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%20Cs%2Fgenetic-engineering.png?alt=media&token=7ba0c3bf-aef0-4051-bb25-aaa46a308131',
+                          program_name: 'BSC(CS)',
                           onTap: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => working()));
+                                    builder: (context) => BSC_CS()));
                           }),
                      
                       Program_Tile(

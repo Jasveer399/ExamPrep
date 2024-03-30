@@ -21,7 +21,7 @@ class _Fourth_SemState extends State<Fourth_Sem> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 4TH SEMESTER",
+          "Bsc(Biotech) - 4TH SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(

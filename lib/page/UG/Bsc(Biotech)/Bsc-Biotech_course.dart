@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pup_prep/main.dart';
+import 'package:pup_prep/page/UG/Bsc(Biotech)/fifth_sem-Bsc-Biotech.dart';
 import 'package:pup_prep/page/UG/Bsc(Biotech)/first_sem-Bsc-Biotech.dart';
-import 'package:pup_prep/page/UG/Bsc(Biotech)/sixth_sem-Bsc-Biotech.dart';
 import 'package:pup_prep/page/UG/Bsc(Biotech)/third_sem-Bsc-Biotech.dart';
 import 'package:pup_prep/widgets/sem_tile.dart';
 import 'package:pup_prep/widgets/up_banner.dart';
@@ -92,8 +92,10 @@ class _BSC_BIOTECHState extends State<BSC_BIOTECH> {
                 ),
                 Semester_tile(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => working()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => Fifth_Sem_BSC_BIOTECH()));
                   },
                   sem_name: '5th Semester',
                   image_name: 'assets/images/sem/5no.png',
@@ -106,7 +108,7 @@ class _BSC_BIOTECHState extends State<BSC_BIOTECH> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => Sixth_Sem_BSC_BIOTECH()));
+                            builder: (context) => working()));
                   },
                   sem_name: '6th Semester',
                   image_name: 'assets/images/sem/6no.png',

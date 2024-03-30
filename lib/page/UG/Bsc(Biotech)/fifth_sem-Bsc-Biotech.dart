@@ -4,14 +4,14 @@ import '../../../main.dart';
 import '../../../widgets/subject_tile.dart';
 import '../../../widgets/up_banner.dart';
 
-class Fifth_Sem extends StatefulWidget {
-  const Fifth_Sem({super.key});
+class Fifth_Sem_BSC_BIOTECH extends StatefulWidget {
+  const Fifth_Sem_BSC_BIOTECH({super.key});
 
   @override
-  State<Fifth_Sem> createState() => _Fifth_SemState();
+  State<Fifth_Sem_BSC_BIOTECH> createState() => _Fifth_Sem_BSC_BIOTECHState();
 }
 
-class _Fifth_SemState extends State<Fifth_Sem> {
+class _Fifth_Sem_BSC_BIOTECHState extends State<Fifth_Sem_BSC_BIOTECH> {
   @override
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;
@@ -19,7 +19,7 @@ class _Fifth_SemState extends State<Fifth_Sem> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 5TH SEMESTER",
+          "Bsc(Biotech) - 5TH SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(
@@ -42,65 +42,76 @@ class _Fifth_SemState extends State<Fifth_Sem> {
                   width: mq.width * 0.7,
                   height: mq.height * 0.06,
                 ),
-                Subject_tile(
-                  title: 'English Litrary \nSkills-1',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Feng.png?alt=media&token=b0250b58-2733-4645-b155-c9a076c64caeg',
+                 Subject_tile(
+                  title: 'Bioprocess Technology',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fbiochemistry.png?alt=media&token=b4ddd432-a98b-4376-8aee-53ad22210345',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'ELS')));
+                                course: 'Bcs(Biotech)',
+                                sem: 'Sem6',
+                                filename: 'Bioprocess Technology')));
                   },
                 ),
                 Subject_tile(
-                  title: 'System Analysis & \nDesign',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fsad.png?alt=media&token=c0040938-f8aa-4973-908b-83a3ae94964a',
+                  title: 'Reombinant DNA\nTechnology',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fdna.png?alt=media&token=ddc8a4e1-f5ce-4d2e-8b1d-fa9f624b4d72',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'SAD')));
+                                course: 'Bcs(Biotech)',
+                                sem: 'Sem6',
+                                filename: 'Reombinant DNA Technology')));
                   },
                 ),
                 Subject_tile(
-                  title: 'System Software',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fss.png?alt=media&token=1a8741ac-5d8f-4ba3-876d-152fda7ae5d2',
+                  title: 'Chemistry-VI',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Flaboratory.png?alt=media&token=24841fd9-c0cb-41b0-bc62-469902272727',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA', sem: 'Sem5', filename: 'SYS')));
+                                course: 'Bcs(Biotech)',
+                                sem: 'Sem6',
+                                filename: 'Chemistry-VI')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Java Programming',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fjava.png?alt=media&token=6f16d935-7593-4fbb-8d57-4cfcfc694d59',
+                  title: 'Palnt Biotechnology',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Fvaccine.png?alt=media&token=4c114e52-05f0-4ef7-aa13-3a1cd1830c65',
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA',
-                                sem: 'Sem5',
-                                filename: 'Java')));
+                                course: 'Bcs(Biotech)',
+                                sem: 'Sem6',
+                                filename: 'Palnt Biotechnology')));
                   },
                 ),
                 Subject_tile(
-                  title: 'Web Designing Using \nHTML & DHTML',
-                  image_name: 'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Ftechnical%2Fhtml.png?alt=media&token=2c291e2b-eabc-4d7e-b750-edf851d555a2',
+                  title: 'Animal Biotechnology',
+                  image_name:
+                      'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBsc%2Ftransgenic.png?alt=media&token=d486688e-d57c-4428-860f-df35a3aaf304',
                   onTap: () {
-                                        Navigator.push(
+                    Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDFScreen(
-                                course: 'BCA',
-                                sem: 'Sem5',
-                                filename: 'HTML')));
+                                course: 'Bcs(Biotech)',
+                                sem: 'Sem6',
+                                filename: 'Animal Biotechnology')));
                   },
-                ),
+                )
               ],
             ),
           ),

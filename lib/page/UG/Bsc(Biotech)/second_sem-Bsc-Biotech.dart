@@ -21,7 +21,7 @@ class _Second_SemState extends State<Second_Sem> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 2nd SEMESTER",
+          "Bsc(Biotech) - 2nd SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(

@@ -21,7 +21,7 @@ class _ThirdSem_BSC_BIOTECHState extends State<ThirdSem_BSC_BIOTECH> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "BCA - 3rd SEMESTER",
+          "Bsc(Biotech) - 3rd SEMESTER",
           style: TextStyle(fontFamily: 'font1'),
         ),
         flexibleSpace: Container(
