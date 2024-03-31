@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pup_prep/main.dart';
 import 'package:pup_prep/page/UG/BA/ba_course.dart';
+import 'package:pup_prep/page/UG/BA_BED/ba-bed_course.dart';
 import 'package:pup_prep/page/UG/Bsc(Biotech)/Bsc-Biotech_course.dart';
 import 'package:pup_prep/page/UG/Bsc(Chemistry)/Bsc_Chemistry.dart';
 import 'package:pup_prep/page/UG/Bsc(Cs)/bsc-CS_course.dart';
@@ -98,54 +99,55 @@ class _UnderGradState extends State<UnderGrad> {
                      
                       Program_Tile(
                           imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbcom.png?alt=media&token=fb460dec-0777-431b-b1ea-d5ac98f767a7',
-                          program_name: 'BCOM',
+                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2FBA%20Bed%2Fgraduation.png?alt=media&token=5f3dc509-8a3c-4981-98a4-e059ad7122b5',
+                          program_name: 'BA B.ED',
                           onTap: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => working()));
+                                    builder: (context) => BA_BED()));
                           }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fmedical.png?alt=media&token=cbde5b31-50a8-4d96-907c-23cf451e4857',
-                          program_name: 'BSc (Medical)',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => working()));
-                          }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fnon_med.png?alt=media&token=e0cd21ab-0aea-4783-a3d7-fe1702d66a6b',
-                          program_name: 'BSc (Maths)',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => working()));
-                          }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbms.png?alt=media&token=abd824d3-623e-469c-bd19-5d21a1061905',
-                          program_name: 'BMS',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => working()));
-                          }),
-                      Program_Tile(
-                          imageName:
-                              'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fagriculture.png?alt=media&token=d314e4b6-aa65-447a-8c08-ffc630ac59f7',
-                          program_name: 'BSc (Agri.)',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => working()));
-                          }),
+                    //   Program_Tile(
+                    //       imageName:
+                    //           'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fmedical.png?alt=media&token=cbde5b31-50a8-4d96-907c-23cf451e4857',
+                    //       program_name: 'BSc (Medical)',
+                    //       onTap: () {
+                    //         Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //                 builder: (context) => working()));
+                    //       }),
+                    //   Program_Tile(
+                    //       imageName:
+                    //           'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fnon_med.png?alt=media&token=e0cd21ab-0aea-4783-a3d7-fe1702d66a6b',
+                    //       program_name: 'BSc (Maths)',
+                    //       onTap: () {
+                    //         Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //                 builder: (context) => working()));
+                    //       }),
+                    //   Program_Tile(
+                    //       imageName:
+                    //           'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fbms.png?alt=media&token=abd824d3-623e-469c-bd19-5d21a1061905',
+                    //       program_name: 'BMS',
+                    //       onTap: () {
+                    //         Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //                 builder: (context) => working()));
+                    //       }),
+                    //   Program_Tile(
+                    //       imageName:
+                    //           'https://firebasestorage.googleapis.com/v0/b/exam-prep-7955c.appspot.com/o/images%2FUnder%20Graduation%2Fagriculture.png?alt=media&token=d314e4b6-aa65-447a-8c08-ffc630ac59f7',
+                    //       program_name: 'BSc (Agri.)',
+                    //       onTap: () {
+                    //         Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //                 builder: (context) => working()));
+                    //       }),
+                    // 
                     ],
                   ),
                 ),
